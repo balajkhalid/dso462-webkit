@@ -3,8 +3,8 @@
 **A lightweight web starter-kit for students enrolled in DSO 462 - Managing Small Business on the Internet at USC.**  
 This kit is designed to help you create and deploy your own business website using **HTML/CSS**, **Flask**, and **MongoDB**.
 
-🌐 **[Live Demo on genez.io](https://genez.io)**  
-A simple working version of this web app is hosted for demonstration purposes.
+<!--  🌐 **[Live Demo on genez.io](https://genez.io)**  
+A simple working version of this web app is hosted for demonstration purposes. -->
 
 ---
 
