@@ -85,5 +85,5 @@ If you want to improve or expand this kit, feel free to fork the repo and submit
 
 For questions or suggestions, reach out to Balaj Khalid
 
-- 📧 Email: [bkhalid@usc.edu]
+- 📧 Email: bkhalid@usc.edu
 - 📍 University of Southern California
