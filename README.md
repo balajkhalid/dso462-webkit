@@ -20,11 +20,13 @@ A simple working version of this web app is hosted for demonstration purposes.
 
 ## 📁 Project Structure
 
+```
 ├── app.py # Flask web server
 ├── static/ # HTML, CSS and JS files
 ├── requirements.txt # Python libraries
 ├── recommendation_system/ # Recommendation engine using LightFM
 └── setup-guides/ # Complete setup documentation
+```
 
 ---
 
@@ -82,5 +84,6 @@ If you want to improve or expand this kit, feel free to fork the repo and submit
 ## 📬 Contact
 
 For questions or suggestions, reach out to Balaj Khalid
-📧 Email: [bkhalid@usc.edu]
-📍 University of Southern California
+
+- 📧 Email: [bkhalid@usc.edu]
+- 📍 University of Southern California
