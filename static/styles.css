@@ -13,6 +13,15 @@ html, body {
     flex: 1;
 }
 
+.page-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -97,9 +106,6 @@ header #cartCount {
     border-radius: 50%;
 }
 
-.page-heading {
-    padding-left: 11%;
-}
 
 /* Product Section */
 .product-container {
@@ -111,7 +117,8 @@ header #cartCount {
     padding: 0 15px;
 }
 
-.product-card {
+.product-card,
+.similar-card  {
     border: 1px solid #dcdcdc;
     padding: 15px;
     width: 250px;
@@ -125,18 +132,21 @@ header #cartCount {
     transition: all 0.3s ease;
 }
 
-.product-card:hover {
+.product-card:hover,
+.similar-card:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.product-card img {
+.product-card img,
+.similar-card img {
     width: 100%;
     height: 160px;
     object-fit: fill;
     border-radius: 5px;
 }
 
-.product-card h3 {
+.product-card h3,
+.similar-card h4 {
     font-size: 16px;
     font-weight: bold;
     color: #333;
@@ -156,7 +166,8 @@ header #cartCount {
     text-align: left;
 }
 
-.product-card .price {
+.product-card .price,
+.similar-card .price  {
     font-size: 18px;
     font-weight: bold;
     color: #0085ca;
@@ -165,7 +176,7 @@ header #cartCount {
 }
 
 /* Buttons */
-button, .product-card .add-to-cart {
+button, .product-card .add-to-cart  {
     background-color: #28a745;
     color: white;
     border: none;
@@ -278,6 +289,7 @@ button:focus, .product-card .add-to-cart:focus {
 
 /* Footer */
 footer {
+    bottom: 0 !important;
     background-color: #333;
     color: white;
     margin-top: 30px;
@@ -351,4 +363,151 @@ footer .footer-links a:hover {
 .error-container a:hover {
     background-color: #007bff;
     color: white;
+}
+
+
+
+/* Product Details Page */
+#product-details {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.product-detail {
+    background-color: #ffffff;
+    max-width: 1000px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+.product-detail img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-info h2 {
+    font-size: 32px;
+    margin: 0 0 20px;
+    color: #212529;
+    font-weight: 700;
+}
+
+.product-info .price {
+    font-size: 26px;
+    color: #0085ca;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.product-info p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.product-info button {
+    align-self: flex-start;
+    background-color: #28a745;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-info button:hover {
+    background-color: #28a745;
+}
+
+@media screen and (max-width: 768px) {
+    .product-detail {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+    }
+
+    .product-detail img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .product-info {
+        align-items: center;
+        text-align: center;
+    }
+
+    .product-info button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Similar Products Page */
+
+.similar-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.similar-products-row {
+    display: flex;
+    flex-wrap: nowrap; /* force row layout */
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+}
+
+.similar-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* .similar-products-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+} */
+
+.similar-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.similar-card button:hover {
+     background-color: #218838;
 }

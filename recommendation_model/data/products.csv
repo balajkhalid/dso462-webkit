@@ -1,0 +1,11 @@
+product_id,name,category,description,price,image
+P1001,iPhone 16 Pro Max,Phone,Apple's most advanced iPhone with A18 Pro chip and titanium design.,1199,iphone_16_pro_max.jpg
+P1002,MacBook Air M4,Laptop,Apple’s thin and powerful laptop with M4 chip and Liquid Retina display.,1299,macbook_m4_air.jpg
+P1003,Sony WH-1000XM5,Headphones,Industry-leading noise canceling headphones with 30 hours of battery life.,399,sony_xm5.jpg
+P1004,Apple Watch Series 9,Watch,Apple's latest smartwatch with blood oxygen monitoring and ECG features.,399,apple_watch_s10.jpg
+P1005,iPad Air M2,Tablet,Apple's lightweight and powerful tablet with M2 chip and Apple Pencil support.,699,apple_ipad_m2.jpg
+P1006,PlayStation 5,Gaming Console,Sony’s next-gen gaming console with 4K gaming and ultra-fast SSD.,499,ps5.jpg
+P1007,Canon EOS R6 Mark II,Camera,Professional mirrorless camera with 24.2MP sensor and 4K 60p video recording.,2499,canon.jpeg
+P1008,Bose SoundLink Revolve+,Speaker,Portable Bluetooth speaker with 360-degree sound and deep bass.,299,bose.jpg
+P1009,LG 27” 4K UHD Monitor,Monitor,LG UltraFine 27-inch monitor with HDR and USB-C connectivity.,649,lg_monitor.jpg
+P1010,Logitech MX Mechanical Keyboard & MX Master 3S Mouse,Peripherals,Ergonomic mechanical keyboard and precision wireless mouse for professionals.,199,mx-keys-s-combo.png
